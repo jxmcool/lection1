@@ -1,6 +1,7 @@
+
+package lection1;
+
 import java.util.Scanner;
-
-
 
 public class Main {
 
@@ -27,7 +28,6 @@ public class Main {
 
         System.out.print("Введите трехзначное число: ");
         int number = scanner.nextInt();
-
         int hundreds = number / 100;
         int tens = (number / 10) % 10;
         int ones = number % 10;
